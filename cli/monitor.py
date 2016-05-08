@@ -6,7 +6,7 @@ import sys
 from pyinotify import WatchManager, Notifier, ProcessEvent, IN_DELETE, IN_CREATE, IN_MODIFY, IN_MOVED_TO
 from os.path import join, dirname, isdir, abspath, basename, islink, exists, getmtime
 from blinker import Signal
-from ztz.util.dirwalk import link_path
+from dirwalk import link_path
 
 _COMPILE_CACHE = {}
 

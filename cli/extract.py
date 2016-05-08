@@ -1,10 +1,5 @@
-from ztz.util.unescape import unescape
 
 
-def extract_html(begin, end, html):
-    r = extract(begin, end, html)
-    if r:
-        return unescape(r)
 
 
 def extract(begin, end, html):
