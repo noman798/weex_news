@@ -4,5 +4,8 @@ ps x -u $USER|ag 'cli/monitor'|awk  '{print $1}'|xargs kill -9 > /dev/null 2>&1
 
 sleep 0.1
 cd $PREFIX
-$PREFIX/cli/monitor
+$PREFIX/cli/monitor &
+
+cd $PREFIX/we
+weex main.we
 
