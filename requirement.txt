@@ -3,4 +3,3 @@ pyinotify
 blinker
 tendo
 envoy
-plim

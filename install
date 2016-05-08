@@ -1,3 +1,7 @@
 PREFIX=$(cd "$(dirname "$0")"; pwd)
+
+cd $PREFIX/cli/plim
+python setup.py install
+
 cd $PREFIX
 pip install -r requirement.txt
