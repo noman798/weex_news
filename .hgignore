@@ -1,2 +1,4 @@
 syntax: glob
+
+we/weex_tmp/*
 config/*
