@@ -8,8 +8,8 @@ style
 -scss
     $font_title : "PT Serif","PingFang SC","Hiragino Sans GB","Noto Sans CJK SC", "Source Han Sans CN","Microsoft YaHei", sans-serif;
     .cell{
-        margin-top:10;
-        margin-left:10;
+        margin-left:20;
+        margin-right:20;
         flex-direction: column;
     }
     .thumb {
@@ -18,7 +18,7 @@ style
     }
     .title{
         font-family:$font_title;
-        font-size:20px;
+        font-size:14px;
         font-weight:bold;
         flex:1;
         color:#000;
