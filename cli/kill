@@ -1,0 +1,2 @@
+ps x -u $USER|ag 'cli/monitor'|awk  '{print $1}'|xargs kill -9 > /dev/null 2>&1
+ps x -u $USER|ag 'weex'|awk  '{print $1}'|xargs kill -9 > /dev/null 2>&1

@@ -1,12 +1,17 @@
 PREFIX=$(cd "$(dirname "$0")"; pwd)
-
-ps x -u $USER|ag 'cli/monitor'|awk  '{print $1}'|xargs kill -9 > /dev/null 2>&1
+$PREFIX/cli/kill
 
 sleep 0.1
 cd $PREFIX
 $PREFIX/cli/monitor &
 
+
+
 cd $PREFIX/we
+if [ ! -f "$PREFIX/config/host" ]; then
 weex main.we
+else
+weex main.we -h `cat $PREFIX/config/host`
+fi
 
 
