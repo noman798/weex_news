@@ -1,3 +1,5 @@
+npm install -g weex-toolkit
+
 PREFIX=$(cd "$(dirname "$0")"; pwd)
 
 cd $PREFIX/cli/plim
