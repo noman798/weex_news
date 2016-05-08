@@ -1,5 +1,6 @@
-sudo npm install -g weex-toolkit
-sudo easy_install pip
+
+easy_install pip
+npm install -g weex-toolkit
 
 PREFIX=$(cd "$(dirname "$0")"; pwd)
 
