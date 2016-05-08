@@ -1,0 +1,10 @@
+-scss
+    @option style: expanded;
+    .selector {
+        a {
+            display: block;
+        }
+            strong {
+            color: blue;
+        }
+    }

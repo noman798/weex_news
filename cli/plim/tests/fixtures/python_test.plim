@@ -1,0 +1,59 @@
+            - python x = 1
+                y = x + 1
+                if True:
+                    y += 1
+                else:
+                    y -= 1
+            - py
+                z = y + 1
+
+
+-py
+    a = z + y + x
+-py! from abcde import fghi
+    from module import func
+
+-py
+    a = u'Привет Мир!'
+
+-py
+    for i in i_list:
+        for j in j_list:
+            print i, j
+        if i == j:
+            print "Equal"
+    if True:
+        print "True"
+
+-py
+    # Test that `embedded markup` is not parsed
+    a = "`test test`"
+
+-----------------------------------------------
+    text = 'new-style python blocks'
+-----------------------------------------------
+div
+    --- count = 10
+        for i in range(count):
+            print i
+
+div: --- count = 0
+         count += 1
+
+div: ---
+    under_the_line = True
+
+--------count = 1--------
+    for i in range(count):
+        print i
+
+-------- # Inline feature is primarily for placing comments as here ------------------
+    var = 1
+
+---! from datetime import datetime
+-------! from json import dumps
+
+/ Emtpy python blocks are not rendered
+--------------------------------------------------------------------------------------
+--------------------------       ---------------------------
+---

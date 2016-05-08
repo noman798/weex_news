@@ -1,0 +1,6 @@
+html
+    body
+        handlebars
+            .container {{outlet}}
+
+        handlebars#about: .container {{outlet}}

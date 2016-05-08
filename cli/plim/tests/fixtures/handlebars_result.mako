@@ -1,0 +1,1 @@
+<html><body><script type="text/x-handlebars"><div class="container">{{outlet}}</div></script><script type="text/x-handlebars" id="about"><div class="container">{{outlet}}</div></script></body></html>
