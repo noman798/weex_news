@@ -1,3 +1,4 @@
+
 template
     list style="top:0;bottom:0;"
         cell
@@ -65,7 +66,8 @@ style
         color:#999;
     }
     .meta{
-        flex-direction:row; 
+        flex-direction:row;
+        justify-content:space-between; 
         background-color:#f5f5f5;
         padding:30;
         padding-left:45;
