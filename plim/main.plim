@@ -1,1 +1,12 @@
+template
+    .container
+        .cell
+            image.thumb src="http://t.cn/RGE3AJt"
+            text.title JavaScript
+
+style
+-scss
+    .cell{margin-top:10 ; margin-left:10 ; flex-direction: row; }
+    .thumb {width: 200; height: 200; }
+    .title {text-align: center ; flex: 1; color: grey; font-size: 50; }  
 

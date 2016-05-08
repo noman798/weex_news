@@ -7,5 +7,5 @@ cd $PREFIX
 $PREFIX/cli/monitor &
 
 cd $PREFIX/we
-weex main.we
+weex main.we -h123.59.145.53
 
