@@ -2,7 +2,8 @@ template
     .container
         .cell
             image.thumb src="http://t.cn/RGE3AJt"
-            text.title JavaScript
+            text.title 奥巴马称：满意美国4月非农 不满总统选举被当真人秀
+            text.brief 美国总统奥巴马表示对4月新增非农就业感到满意，他称美国经济在复苏期间已经创造了1460万就业，他还表示美国政府正在推新法打击逃税行为，呼吁国会采取行动支持。此外，他表示美国大选并非真人秀，呼吁共和党选民斟酌特朗普提名。
 
 style
 -scss
