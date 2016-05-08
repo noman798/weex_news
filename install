@@ -1,4 +1,4 @@
-npm install -g weex-toolkit
+sudo npm install -g weex-toolkit
 
 PREFIX=$(cd "$(dirname "$0")"; pwd)
 
