@@ -9,7 +9,7 @@ template
                     image.thumb src="http://o3g5m3mko.qnssl.com/118093?imageMogr2/auto-orient/strip/thumbnail/!1380x920r/gravity/Center/crop/1380x920/format/webp"
                 .meta
                     text.meta_site 港股那点事
-                    text.meta_date 5-5
+                    text.meta_date 3分钟前
 
         cell
             .cell
@@ -17,17 +17,26 @@ template
                     text.title 大败局思考之三：AOL的巅峰和陨落
                     text.brief 历史永远是最好的一面镜子，回顾公司和时代的发展会有很多收获。今年除了会继续写的“十倍股系列外”，我还会增加一个专题研究“那些年没有实现的梦想”。从那些曾经给予我们梦想，却最终并没有实现的案例中，去反思企业和行业的发展以及 … …
                     image.thumb src="http://o3g5m3mko.qnssl.com/117134?imageMogr2/auto-orient/strip/thumbnail/!1380x920r/gravity/Center/crop/1380x920/format/webp"
+                .meta
+                    text.meta_site 华尔街见闻 
+                    text.meta_date 20:32
         cell
             .cell
                 .post
                     text.title Sell in May？I don’t believe！五月应是看多时！
                     text.brief 凡是做港股的，肯定都听说过sell in mayand go away。意思就是5月份基本上没什么行情，还不如卖了股票出去玩玩。其实统计过去几年的数据，5月的确是跌的时候大大多过涨的时候，1999年至今，只有5年是上涨，其余都为下跌。在进入2016年5月 … …
+                .meta
+                    text.meta_site 金融启示录 
+                    text.meta_date 5-4
 
         cell
             .cell
                 .post
                     text.title 营改增的最大受益者是谁？
                     text.brief 在国金证券电话会上，税务专家认为，原本增值税纳税人和小规模纳税人受益较大；另一方面，按行业分析，受益程度由大到小排列为：生活服务类>房地产业>金融业>建筑业。由于人工支出不能抵税，营改增鼓励采购设备，在一定程度上鼓励劳动密集型企业以机器替代人工。
+                .meta
+                    text.meta_site 华尔街日报 
+                    text.meta_date 5-3
 
 style
 -scss
@@ -74,9 +83,9 @@ style
     }
     .brief{
         font-family:$font_txt;
-        font-weight:200;
+        font-weight:light;
         line-height:1.8;
-        font-size:36;
+        font-size:34;
         color:#999;
         font-weight:lighter;
         margin-top:20;
