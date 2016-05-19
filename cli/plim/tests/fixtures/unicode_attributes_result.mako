@@ -1,1 +1,0 @@
-<a title="quick unicode string in 中文"></a><input placeholder="${u"選擇"}"/>

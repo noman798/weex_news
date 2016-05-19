@@ -1,5 +1,0 @@
-            -with open("x.txt") as f
-                div Test
-
-- with open("x.txt") as f
-    div Test

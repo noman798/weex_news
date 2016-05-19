@@ -1,3 +1,4 @@
+https://bitbucket.org/vcwatch/plim/get/tip.zip
 mako
 pyinotify
 blinker
